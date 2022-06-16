@@ -4,7 +4,7 @@ from pymessenger.bot import Bot
 
 app = Flask(__name__)       # Initializing our Flask application
 ACCESS_TOKEN = ''
- bot = Bot()
+# bot = Bot()
 
 # Importing standard route and two requst types: GET and POST.
 # We will receive messages that Facebook sends our bot at this endpoint
